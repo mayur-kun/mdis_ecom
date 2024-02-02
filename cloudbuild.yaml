@@ -20,7 +20,7 @@ steps:
       - '--region'
       - '$_DEPLOY_REGION'
       - '--port'
-      - '8080'
+      - '8501'
 
 options:
   logging: CLOUD_LOGGING_ONLY
