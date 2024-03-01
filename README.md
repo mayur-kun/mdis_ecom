@@ -11,15 +11,9 @@ This project contributes to:
 2. Data-driven decision making for businesses based on actionable insights.
 3. Showcasing the capabilities of GCP for real-world machine learning applications.
 
-🚀 Explore the repository:
-Code for data analysis and model building - model_training.ipynb
-Code for frontend - app.py
-Deployment specifications for GCP - cloudbuild.yaml
-Deployment specifications for local - Dockerfile
 
 
-🛠️ Steps and Tools:
-Here's an overview of the steps involved and the GCP services utilized:
+🛠️ Here's an overview of the steps involved and the GCP services utilized:
 
 1. Data Preparation:
 
@@ -57,7 +51,6 @@ You'll need to enable all the APIs needed for this project through the "APIs and
 If you are new to GCP, you can use the free credits provided by the platform as I have done for this project. Once the free credits run out, the platform will charge you monthly for the services and compute resources used in your project.
 
 
-Conclusion:
 
 This project was a fantastic learning experience! I got to dive into the world of GCP and gain practical skills in deploying models and even automating the CI/CD pipeline (which was a big goal for me!). By leveraging BigQuery, Vertex AI, and Streamlit, I built a customer churn prediction model that not only provided valuable insights but also showcased the potential of GCP for real-world data science applications.
 
