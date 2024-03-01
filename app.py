@@ -110,4 +110,3 @@ def main():
         st.text("Built with Streamlit, Best model used: Random Forest!")
 
 main()
-
