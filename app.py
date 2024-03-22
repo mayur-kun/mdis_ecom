@@ -107,6 +107,6 @@ def main():
         else:
             st.error("The customer is likely to churn!")
     if st.button("About"):
-        st.text("Built with Streamlit, Best model used: Random Forest!")
+        st.text("Built with Streamlit, Best model used: XGBoost!")
 
 main()
