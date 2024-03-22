@@ -6,7 +6,7 @@ from google.cloud import storage
 # Load model from storage bucket
 client = storage.Client()
 bucket = client.bucket('ecom_deployment_bucket')
-blob = bucket.blob('random_forest_model_v1-0.pkl')
+blob = bucket.blob('xgboost_model_v1-0.pkl')
 model = joblib.load(blob.open('rb'))
 
 def predict(list1):
